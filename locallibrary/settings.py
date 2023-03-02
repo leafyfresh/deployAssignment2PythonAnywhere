@@ -24,7 +24,7 @@ SECRET_KEY = 'django-insecure-y04-9&z96d)dhth((y#*1(*+2%+$q7!uzlraa8z89k147c2r4e
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
 
@@ -139,7 +139,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'nathanmnoonandev@gmail.com'
-EMAIL_HOST_PASSWORD = 'adokgfjyjuuontgo'
+EMAIL_HOST_PASSWORD = 'ukexdmqgvjsvyjuy'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 SERVER_EMAIL = 'root@gmail.com'
